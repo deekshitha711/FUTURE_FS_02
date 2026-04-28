@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+.table-card {
+  flex: 2;
+  min-width: 300px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-card {
+  flex: 1;
+  min-width: 300px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* CONTROLS */
+.controls {
+  margin-top: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* SEARCH */
+input[placeholder="Search by name..."] {
+  width: 60%;
+  padding: 10px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* SELECT */
+select {
+  margin: 10px auto;
+  display: block;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  word-break: break-word;
+}
+
+th {
+  background: #4f8fdc;
+  color: white;
+}
+
+/* COLUMN WIDTHS */
+th:nth-child(1), td:nth-child(1) { width: 15%; }
+th:nth-child(2), td:nth-child(2) { width: 25%; }
+th:nth-child(3), td:nth-child(3) { width: 15%; }
+th:nth-child(4), td:nth-child(4) { width: 15%; }
+th:nth-child(5), td:nth-child(5) { width: 20%; }
+th:nth-child(6), td:nth-child(6) { width: 10%; }
+
+/* BUTTON INSIDE TABLE */
+td button {
+  white-space: nowrap;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+/* STATUS COLORS */
+.status.new {
+  color: blue;
+  font-weight: bold;
+}
+
+.status.contacted {
+  color: orange;
+  font-weight: bold;
+}
+
+.status.converted {
+  color: green;
+  font-weight: bold;
+}
+
+/* FORM */
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a73e8;
+}
+
+/* POPUP */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: fadeIn 0.3s ease;
+}
+
+/* POPUP BUTTONS */
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+  background: #ff4d4d;
+  color: white;
+}
+
+.popup-buttons button:last-child {
+  background: #ccc;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* HEADINGS ALIGN */
+.table-card h2,
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
