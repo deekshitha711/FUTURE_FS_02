@@ -47,7 +47,7 @@ This CRM system helps in managing client information collected through forms. It
 ```bash
 git clone https://github.com/deekshitha711/FUTURE_FS_02.git
 cd FUTURE_FS_02
-
+```
 ---
 
 To run this locally make sure you have Mongodb installed.
@@ -55,10 +55,11 @@ backend:
    ```bash
    npm install
    node server.js
-
+   ```
 ---
 
 frontend:
    ```bash
    npm install
    npm start
+   ```
