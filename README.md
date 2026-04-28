@@ -13,13 +13,12 @@ This CRM system helps in managing client information collected through forms. It
 
 ## ✨ Features
 
-- ➕ Add new leads (Name, Email, Source, Notes)
-- 📋 View all leads in table format
-- 🔄 Update lead status (New / Contacted / Converted)
-- 🗑 Delete leads
-- 🔍 Search leads by name
-- 🎯 Filter leads by status
-- 🔐 Simple admin login
+-  Add new leads (Name, Email, Source, Notes)
+-  View all leads in table format
+-  Update lead status (New / Contacted / Converted)
+-  Delete leads
+-  Search leads by name
+-  Filter leads by status
 
 ---
 
@@ -42,7 +41,7 @@ This CRM system helps in managing client information collected through forms. It
 
 ## ⚙️ Setup Instructions (Run Locally)
 
-### 🔹 1. Clone the repository
+###  1. Clone the repository
 
 ```bash
 git clone https://github.com/deekshitha711/FUTURE_FS_02.git
