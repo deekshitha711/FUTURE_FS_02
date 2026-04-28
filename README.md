@@ -1,5 +1,5 @@
 # FUTURE_FS_02
-# 📊 Client Lead Management System (Mini CRM)
+# Client Lead Management System (Mini CRM)
 
 A simple full-stack CRM application to manage client leads. This project allows users to add, view, update, and delete leads efficiently.
 
